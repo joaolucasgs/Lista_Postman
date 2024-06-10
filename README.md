@@ -66,8 +66,8 @@ Certifique-se de ter o Node.js instalado na sua máquina. Você pode baixá-lo [
    npm install -g newman
    npm i -g newman-reporter-htmlextra
 
-2. **Gerar e vizualizar relatorio**
-   Execute o seguinte comando no terminal para gerar o relatório:
+2. **Gerar relatório**
+   Execute o seguinte comando no terminal para gerar o relatório de testes:
    ```sh
-  newman run 'Lista Postman.postman_collection.json' -r htmlextra
-  Após gerar, vizualizar relatório na pasta criada com o nome de 'newman'    
+   newman run 'Lista Postman.postman_collection.json' -r htmlextra
+      
